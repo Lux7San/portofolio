@@ -111,8 +111,6 @@ const Qualification = () => {
 
             <div className="qualification__data">
                 <div></div>
-
-                
                 <div>
                     <span className="qualification__rounder"></span>
                     <span className="qualification__line"></span>
@@ -126,6 +124,23 @@ const Qualification = () => {
                     </div>
                 </div>
             </div>
+
+            <div className="qualification__data">
+                <div>
+                    <h3 className="qualification__title">Intro Frontend Dev. (Intern)</h3>
+                    <span className="qualification__subtitle">Progate (Remote) - <br /> Indonesia</span>
+                    <div className="qualification__calender">
+                        <i className="uil uil-calendar-alt"></i> March 2021 - Present
+                    </div>
+                </div>
+
+                <div>
+                    <span className="qualification__rounder"></span>
+                    <span className="qualification__line"></span>
+                </div>
+            </div>
+
+            
 
             {/* <div className="qualification__data">
                 <div>

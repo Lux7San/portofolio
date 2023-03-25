@@ -15,9 +15,10 @@ const Services = () => {
         <div className="services__container container grid">
             <div className="services__content">
                 <div>
-                    <i className="uil uil-web-grid services__icon"></i>
+                    {/* <i className="uil uil-web-grid services__icon"></i> */}
+                    <i className="uil uil-edit services__icon"></i>
                     <h3 className="services__title">
-                        Product <br /> Designer
+                        Ui / Ux <br /> Designer
                     </h3>
                 </div>
 
@@ -27,9 +28,10 @@ const Services = () => {
                 </span>
                 <div className={toggleState === 1 ? "services__modal active-modal" : "services__modal"}>
                     <div className="services__modal-content">
+                        
                         <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
-                        <h3 className="services__modal-title">Product Designer</h3>
+                        <h3 className="services__modal-title">UI / UX Designer</h3>
                         <p className="services__modal-description">some of our best work comes through service to others. deliver quality work to clients and companies</p>
                         <ul className="services__modal-service grid">
                             <li className="services__modal-service">
@@ -81,9 +83,10 @@ const Services = () => {
 
             <div className="services__content">
                 <div>
-                    <i className="uil uil-arrow services__icon"></i>
+                    {/* <i className="uil uil-arrow services__icon"></i> */}
+                    <i className="uil uil-web-grid services__icon"></i>
                     <h3 className="services__title">
-                        Ui / Ux <br /> Designer
+                        Frontend <br /> Developer
                     </h3>
                 </div>
 
@@ -147,9 +150,10 @@ const Services = () => {
 
             <div className="services__content">
                 <div>
-                    <i className="uil uil-edit services__icon"></i>
+                    {/* <i className="uil uil-edit services__icon"></i> */}
+                    <i className="uil uil-arrow services__icon"></i>
                     <h3 className="services__title">
-                        Visual <br /> Designer
+                        Backend <br /> Developer
                     </h3>
                 </div>
 
